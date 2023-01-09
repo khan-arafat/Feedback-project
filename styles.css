@@ -1,0 +1,167 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#feedback {
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+
+#container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.outer {
+    display: flex;
+}
+#inner-container {
+    width: 400px;
+    height: 400px;
+    position: static;
+    border: 1px solid lightslategray;
+    background-color: lightslategray;
+    border-radius: 11px;
+    overflow: hidden;
+}
+#inner-container h2,p,div {
+    display: block;
+    margin-left: 20px;
+}
+#inner-container p {
+    color:aliceblue;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.dots1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bbb;
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+#inner-circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: nowrap;
+    margin-top: 18px;
+}
+
+[class="btn"] {
+    overflow: hidden;
+    border: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bbb;
+}
+
+[class="btn"]:hover {
+    background-color: orange;
+    transition: 0.3s;
+    color: aliceblue;
+    font-weight: 400;
+}
+[class="nowClick"] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bbb;
+
+}
+
+#inner-container h2 {
+    color: whitesmoke;
+    font-weight: 600;
+    
+}
+
+input {
+    width: 160px;
+    height: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    border: 1px solid orange;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 2.3rem;
+    cursor: pointer;
+
+}
+input:hover {
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+    border: 1px solid white;
+    overflow: hidden;
+}
+body a{
+    text-decoration: none;
+}
+
+#thankcontainer{
+    position: absolute;
+    right: 33%;
+    z-index: -1;
+}
+
+#thankyou {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid lightslategray;
+    background-color: lightslategray;
+    border-radius: 11px;
+    overflow: hidden;
+}
+#thankimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thankyou h2 {
+    color: aliceblue;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    background-color: #bbb;
+    text-align: center;
+    color: orange;
+    width: 300px;
+    height: 20px;
+}
+
+#thankyou p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: bisque;
+}
